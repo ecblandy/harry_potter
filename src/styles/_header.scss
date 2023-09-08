@@ -1,0 +1,39 @@
+@use 'variaveis';
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    backdrop-filter: blur(1px);
+    background-color: variaveis.$corDeFundo;
+    padding: 10px;
+    @media (max-width: 800px){
+        flex-direction: column;
+    }
+    &__branding {
+        img {
+
+            height: 60px;
+        }
+    }
+
+    &__nav {
+        &__lista {
+            display: flex;
+            gap: 10px;
+            &__item {
+                a {
+                    text-decoration: none;
+                    color: variaveis.$corTitleNav;
+                    &:hover {
+                        border-bottom: 3px solid rgb(38, 0, 255);
+                    }
+                }
+            }
+        }
+    }
+}

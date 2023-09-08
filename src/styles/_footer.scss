@@ -1,0 +1,23 @@
+@use 'variaveis';
+.footer {
+    background-color: variaveis.$corDeFundoCard;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+    &__direitos-autorais {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        img {
+            width: 60px;
+        }
+
+        span {
+            color: #fff;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+        }
+    }
+}

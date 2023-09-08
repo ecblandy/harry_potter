@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./dist/conteudo/Warner_logo.png" width="800" type="image/x-icon">
+    <link rel="stylesheet" href="./dist/styles/main.css">
+    <title>Harry Potter - LandingPage</title>
+</head>
+<body>
+    <video autoplay loop playsinline>
+        <source src="./dist/conteudo/373783337_6834399096611075_4512790854357629529_n.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos em HTML5.
+    </video>
+    <div class="container">
+        <header class="header">
+            <div class="header__branding">
+                <img src="./dist/conteudo/harry_logo.png" alt="">
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav__lista">
+                    <li class="header__nav__lista__item"><a class="nav--title" href="#sobre">Inicio</a></li>
+                    <li class="header__nav__lista__item"><a class="nav--title" href="#franquia">Filmes</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="sobre" class="sobre">
+            <div class="sobre__branding">
+                <img src="./dist/conteudo/harry-and-ron-on-the-hogwarts-express-1050x0-c-default.jpg" alt="">
+            </div>
+            <div class="sobre__infos">
+                <h2 class="title">O big bang!</h2>
+                <p class="text">A autora J.K. Rowling teve a ideia para Harry Potter enquanto estava em um trem. Ela imaginou a história de um jovem bruxo que frequentava uma escola de magia. Essa ideia se transformou em uma série de livros famosa, onde um órfão chamado Harry Potter descobre que é um bruxo e começa a frequentar a Escola de Magia e Bruxaria de Hogwarts. Lá, ele enfrenta aventuras, faz amigos e descobre segredos sobre seu passado, incluindo um confronto com o terrível bruxo das trevas, Lord Voldemort. A série Harry Potter se tornou um enorme sucesso em todo o mundo.</p>
+            </div>
+        </section>
+        <section id="franquia" class="franquia">
+            <div class="franquia__title">
+                <h2 class="title">Por qual filme começar?</h2>
+            </div>
+            <div class="franquia__video">
+                <iframe id="youtubeVideo"  src="https://www.youtube.com/embed/IRANXt25CWY" frameborder="0" ></iframe>
+            </div>
+            <div class="franquia__filmes">
+                <h1 class="title">Todos os filmes</h1>
+                <ul class="franquia__filmes__lista">
+                    <li class="franquia__filmes__lista__item">
+                        <img src="./dist/conteudo/HP_pedra-filosofal.jpg" alt="Poster Filosofal">
+                        <h3 class="title--small">Harry Potter e a Pedra Filosofal</h3>
+                        <span class="text">2001</span>
+                    </li>
+                    <li class="franquia__filmes__lista__item">
+                        <img src="./dist/conteudo/HP_camara-secreta.jpg" alt="Poster Camara">
+                        <h3 class="title--small">Harry Potter e a Câmara Secreta</h3>
+                        <span class="text">2002</span>
+                    </li>
+                    <li class="franquia__filmes__lista__item">
+                        <img src="./dist/conteudo/HP_azkaban.jpg" alt="Poster Azkaban">
+                        <h3 class="title--small">Harry Potter e o Prisioneiro de Azkaban</h3>
+                        <span class="text">2004</span>
+                    </li>
+                    <li class="franquia__filmes__lista__item">
+                        <img src="./dist//conteudo/HP_Calice.jpg" alt="Poster Calice">
+                        <h3 class="title--small">Harry Potter e o Cálice de Fogo</h3>
+                        <span class="text">2005</span>
+                    </li>
+                    <li class="franquia__filmes__lista__item">
+                        <img src="./dist//conteudo/HP_fenix.jpg" alt="Poster Fenix">
+                        <h3 class="title--small">Harry Potter e a Ordem da Fênix</h3>
+                        <span class="text">2007</span>
+                    </li>
+                    <li class="franquia__filmes__lista__item">
+                        <img src="./dist/conteudo/HP_enigma.jpg" alt="Poster Enigma">
+                        <h3 class="title--small">Harry Potter e o Enigma do Príncipe</h3>
+                        <span class="text">2009</span>
+                    </li>
+                    <li class="franquia__filmes__lista__item">
+                        <img src="./dist/conteudo/hp_reliquias1.jpg" alt="Poster Reliquias 1">
+                        <h3 class="title--small">Harry Potter e as Relíquias da Morte: Parte 1</h3>
+                        <span class="text">2010</span>
+                    </li>
+                    <li class="franquia__filmes__lista__item">
+                        <img src="./dist/conteudo/HP_reliquias2.jpg" alt="Poster Reliquias 2">
+                        <h3 class="title--small">Harry Potter e as Relíquias da Morte: Parte 2</h3>
+                        <span class="text">2011</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="footer__direitos-autorais">
+            <img src="./dist/conteudo/Warner_logo.png" alt="Warner Logo">
+            <span>&copy; Warner Bros - Todos os direitos reservados - 2023</span>
+        </div>
+    </footer>
+    <script src="./src/scripts/main.js"></script>
+</body>
+</html>
